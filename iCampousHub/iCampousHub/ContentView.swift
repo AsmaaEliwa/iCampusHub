@@ -9,49 +9,96 @@ import SwiftUI
 import CoreData
 
 struct ContentView: View {
+    @State private var collegeName = ""
+    @State private var collegeAdress = ""
+    @State private var noOfStudents = ""
+    @State private var yearPayment = ""
+    @State private var isAlertPresented = false
     @Environment(\.managedObjectContext) private var viewContext
 
     @FetchRequest(
-        sortDescriptors: [NSSortDescriptor(keyPath: \Item.timestamp, ascending: true)],
+        sortDescriptors: [NSSortDescriptor(keyPath: \College.timestamp, ascending: true)],
         animation: .default)
-    private var items: FetchedResults<Item>
-   
+    private var items: FetchedResults<College>
+    func resetInputs(){
+         collegeName = ""
+        collegeAdress = ""
+         noOfStudents = ""
+         yearPayment = ""
+    }
+//    func validationAlert(){
+//
+//
+//          let alert = Alert(
+//              title: Text("Validation Error"),
+//              message: Text("Please fill in all the fields."),
+//              dismissButton: .default(Text("OK")) {
+//                  // This block is executed when the OK button is pressed
+//                  isAlertPresented = false
+//              }
+//          )
+//
+//          // Present the alert using the .alert modifier
+////        self.alert(isPresented: isAlertPresented ? alert : nil)
+//    }
     var body: some View {
-        
+        NavigationView {
             ZStack{
                 LinearGradient(gradient: Gradient(colors: [ .white , .brown]), startPoint: .top, endPoint: .bottom).edgesIgnoringSafeArea(.all)
                 VStack{
                     Text("Add A College").font(.system(size: 35 , weight: .medium , design: .default)).foregroundColor( .brown)
                         .padding(30)
-                   
+                    
                     
                     VStack{
-                        input(placeholder: "Enter College Name",label: "The College Name")
-                        input(placeholder: "Enter College Address",label: "The Address")
-                        input(placeholder: "Enter College Address",label: "The Address")
-                        input(placeholder: "Enter College Address",label: "The Address")
-                       
+                        input( text:$collegeName, placeholder:"Enter College Name",label: "The College Name")
+                        input(text:$collegeAdress , placeholder: "Enter College Address", label:"College Address" )
+                        input(text:$noOfStudents,placeholder: "Enter Number Of Students",label: "Number Of Students")
+                        input(text: $yearPayment , placeholder: "Enter Year Payment",label: "Year Payment")
                         Button{
+                            if collegeName.isEmpty || collegeAdress.isEmpty || noOfStudents.isEmpty || yearPayment.isEmpty {
+                                isAlertPresented = true
+                                
+                                
+                            }else{
+                                CollegeDataManager.shared.addCollege(name: collegeName, address: collegeAdress , nOfStudents: noOfStudents, yearPayment: Float(yearPayment) ?? 0)
+                                resetInputs()
+                            }
                             
                         }label: {
-                            Text("Add College").padding(10)
-                                .background(.white)
-                                .font(.system(size: 25 ,weight: .medium))
-                                .cornerRadius(15).foregroundColor(.brown)
-                            
-                        }.padding()
+                            myBtn(title: "Add College")
+                        }   .background(
+                            NavigationLink("", destination: AllCollegesView(), isActive: $isAlertPresented)
+                        )
                         
+                        
+                        
+                    }.alert(isPresented: $isAlertPresented) {
+                        Alert(
+                            title: Text("Error"),
+                            message: Text("please fill out the requirments."),
+                            primaryButton: .default(Text("OK"), action: {
+                                // Handle the OK button action
+                                isAlertPresented = false
+                            }),
+                            secondaryButton: .cancel(Text("Cancel"), action: {
+                                // Handle the Cancel button action
+                                isAlertPresented = false
+                            })
+                        )
                     }
+                    
                     Spacer()
                 }
-               
-               
+                
+                
             }
+        }
     }
 
     private func addItem() {
         withAnimation {
-            let newItem = Item(context: viewContext)
+            let newItem = College(context: viewContext)
             newItem.timestamp = Date()
 
             do {
@@ -95,7 +142,7 @@ struct ContentView_Previews: PreviewProvider {
 }
 
 struct input: View{
-    @State private var text: String = ""
+    @Binding var text: String
     var placeholder: String
     var label:String
     var body: some View {
@@ -113,3 +160,4 @@ struct input: View{
     }
     
 }
+

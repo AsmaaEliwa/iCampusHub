@@ -1,9 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <entity name="Item" representedClassName="Item" syncable="YES" codeGenerationType="class">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21754" systemVersion="22G91" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="College" representedClassName=".College" syncable="YES">
+        <attribute name="adress" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="nOfStudents" optional="YES" attributeType="String"/>
+        <attribute name="payment" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
         <attribute name="timestamp" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <relationship name="departments" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Department" inverseName="college" inverseEntity="Department"/>
     </entity>
-    <elements>
-        <element name="Item" positionX="-63" positionY="-18" width="128" height="44"/>
-    </elements>
+    <entity name="Course" representedClassName=".Course" syncable="YES">
+        <attribute name="hours" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="department" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Department" inverseName="courses" inverseEntity="Department"/>
+        <relationship name="professor" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Professor" inverseName="course" inverseEntity="Professor"/>
+    </entity>
+    <entity name="Department" representedClassName=".Department" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="college" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="College" inverseName="departments" inverseEntity="College"/>
+        <relationship name="courses" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Course" inverseName="department" inverseEntity="Course"/>
+    </entity>
+    <entity name="Professor" representedClassName=".Professor" syncable="YES">
+        <attribute name="age" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="course" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Course" inverseName="professor" inverseEntity="Course"/>
+    </entity>
 </model>
