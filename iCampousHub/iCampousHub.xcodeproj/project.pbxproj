@@ -24,6 +24,8 @@
 		7F24A2202AE46D3B00460A65 /* Department+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F24A2182AE46D3B00460A65 /* Department+CoreDataProperties.swift */; };
 		7F24A2252AE475EB00460A65 /* CollegeDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F24A2242AE475EB00460A65 /* CollegeDataManager.swift */; };
 		7F24A2272AE4B36D00460A65 /* AllCollegesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F24A2262AE4B36D00460A65 /* AllCollegesView.swift */; };
+		7F24A2292AE6A10800460A65 /* CollegeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F24A2282AE6A10800460A65 /* CollegeInfo.swift */; };
+		7F24A22C2AE6A34000460A65 /* CollegeRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F24A22B2AE6A34000460A65 /* CollegeRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +47,8 @@
 		7F24A2182AE46D3B00460A65 /* Department+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Department+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		7F24A2242AE475EB00460A65 /* CollegeDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeDataManager.swift; sourceTree = "<group>"; };
 		7F24A2262AE4B36D00460A65 /* AllCollegesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCollegesView.swift; sourceTree = "<group>"; };
+		7F24A2282AE6A10800460A65 /* CollegeInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeInfo.swift; sourceTree = "<group>"; };
+		7F24A22B2AE6A34000460A65 /* CollegeRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,16 +81,13 @@
 		7F24A1FB2AE42CF700460A65 /* iCampousHub */ = {
 			isa = PBXGroup;
 			children = (
+				7F24A22A2AE6A28A00460A65 /* Views */,
 				7F24A2232AE4758F00460A65 /* singletonDataClasses */,
 				7F24A2222AE46D6300460A65 /* coreDataClasses */,
-				7F24A1FC2AE42CF700460A65 /* iCampousHubApp.swift */,
-				7F24A1FE2AE42CF700460A65 /* ContentView.swift */,
-				7F24A20F2AE465E300460A65 /* myBtn.swift */,
-				7F24A2052AE42CFF00460A65 /* Persistence.swift */,
 				7F24A2002AE42CFF00460A65 /* Assets.xcassets */,
 				7F24A2072AE42CFF00460A65 /* iCampousHub.xcdatamodeld */,
 				7F24A2022AE42CFF00460A65 /* Preview Content */,
-				7F24A2262AE4B36D00460A65 /* AllCollegesView.swift */,
+				7F24A2282AE6A10800460A65 /* CollegeInfo.swift */,
 			);
 			path = iCampousHub;
 			sourceTree = "<group>";
@@ -120,6 +121,19 @@
 				7F24A2242AE475EB00460A65 /* CollegeDataManager.swift */,
 			);
 			path = singletonDataClasses;
+			sourceTree = "<group>";
+		};
+		7F24A22A2AE6A28A00460A65 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7F24A1FC2AE42CF700460A65 /* iCampousHubApp.swift */,
+				7F24A2052AE42CFF00460A65 /* Persistence.swift */,
+				7F24A2262AE4B36D00460A65 /* AllCollegesView.swift */,
+				7F24A1FE2AE42CF700460A65 /* ContentView.swift */,
+				7F24A20F2AE465E300460A65 /* myBtn.swift */,
+				7F24A22B2AE6A34000460A65 /* CollegeRowView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +209,7 @@
 				7F24A2202AE46D3B00460A65 /* Department+CoreDataProperties.swift in Sources */,
 				7F24A21D2AE46D3B00460A65 /* Course+CoreDataClass.swift in Sources */,
 				7F24A2092AE42CFF00460A65 /* iCampousHub.xcdatamodeld in Sources */,
+				7F24A2292AE6A10800460A65 /* CollegeInfo.swift in Sources */,
 				7F24A2062AE42CFF00460A65 /* Persistence.swift in Sources */,
 				7F24A2272AE4B36D00460A65 /* AllCollegesView.swift in Sources */,
 				7F24A21A2AE46D3B00460A65 /* Professor+CoreDataProperties.swift in Sources */,
@@ -202,6 +217,7 @@
 				7F24A21C2AE46D3B00460A65 /* College+CoreDataProperties.swift in Sources */,
 				7F24A21E2AE46D3B00460A65 /* Course+CoreDataProperties.swift in Sources */,
 				7F24A2102AE465E300460A65 /* myBtn.swift in Sources */,
+				7F24A22C2AE6A34000460A65 /* CollegeRowView.swift in Sources */,
 				7F24A2252AE475EB00460A65 /* CollegeDataManager.swift in Sources */,
 				7F24A21B2AE46D3B00460A65 /* College+CoreDataClass.swift in Sources */,
 				7F24A21F2AE46D3B00460A65 /* Department+CoreDataClass.swift in Sources */,

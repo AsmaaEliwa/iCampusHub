@@ -42,19 +42,20 @@ struct ContentView: View {
 ////        self.alert(isPresented: isAlertPresented ? alert : nil)
 //    }
     var body: some View {
-        NavigationView {
+        NavigationSplitView {
             ZStack{
                 LinearGradient(gradient: Gradient(colors: [ .white , .brown]), startPoint: .top, endPoint: .bottom).edgesIgnoringSafeArea(.all)
                 VStack{
                     Text("Add A College").font(.system(size: 35 , weight: .medium , design: .default)).foregroundColor( .brown)
                         .padding(30)
-                    
+                    Divider()
                     
                     VStack{
                         input( text:$collegeName, placeholder:"Enter College Name",label: "The College Name")
                         input(text:$collegeAdress , placeholder: "Enter College Address", label:"College Address" )
                         input(text:$noOfStudents,placeholder: "Enter Number Of Students",label: "Number Of Students")
                         input(text: $yearPayment , placeholder: "Enter Year Payment",label: "Year Payment")
+                        NavigationLink(destination: AllCollegesView()){
                         Button{
                             if collegeName.isEmpty || collegeAdress.isEmpty || noOfStudents.isEmpty || yearPayment.isEmpty {
                                 isAlertPresented = true
@@ -65,14 +66,11 @@ struct ContentView: View {
                                 resetInputs()
                             }
                             
-                        }label: {
-                            myBtn(title: "Add College")
-                        }   .background(
-                            NavigationLink("", destination: AllCollegesView(), isActive: $isAlertPresented)
-                        )
-                        
-                        
-                        
+                            }label: {
+                                myBtn(title: "Add College")
+                            }
+                        }
+  
                     }.alert(isPresented: $isAlertPresented) {
                         Alert(
                             title: Text("Error"),
@@ -93,6 +91,8 @@ struct ContentView: View {
                 
                 
             }
+        }detail:{
+            Text("Select a Landmark")
         }
     }
 
@@ -146,7 +146,7 @@ struct input: View{
     var placeholder: String
     var label:String
     var body: some View {
-        VStack{
+        VStack(alignment: .leading){
             Text(label)
                 .font(.system(size: 20 , weight: .medium , design: .default))
                 .multilineTextAlignment(.leading)
@@ -156,7 +156,7 @@ struct input: View{
             TextField(placeholder, text: $text ).textFieldStyle(RoundedBorderTextFieldStyle())
                 .padding()
             
-        }
+        }.padding(.leading)
     }
     
 }
