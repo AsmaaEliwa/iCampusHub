@@ -2,7 +2,7 @@
 //  College+CoreDataProperties.swift
 //  iCampousHub
 //
-//  Created by asmaa gamal  on 21/10/2023.
+//  Created by asmaa gamal  on 23/10/2023.
 //
 //
 
@@ -16,11 +16,11 @@ extension College {
         return NSFetchRequest<College>(entityName: "College")
     }
 
-    @NSManaged public var timestamp: Date?
-    @NSManaged public var name: String?
     @NSManaged public var adress: String?
+    @NSManaged public var name: String?
     @NSManaged public var nOfStudents: String?
     @NSManaged public var payment: Float
+    @NSManaged public var timestamp: Date?
     @NSManaged public var departments: NSOrderedSet?
 
 }

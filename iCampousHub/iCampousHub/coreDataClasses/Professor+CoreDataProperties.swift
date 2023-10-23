@@ -2,7 +2,7 @@
 //  Professor+CoreDataProperties.swift
 //  iCampousHub
 //
-//  Created by asmaa gamal  on 21/10/2023.
+//  Created by asmaa gamal  on 23/10/2023.
 //
 //
 
@@ -16,9 +16,10 @@ extension Professor {
         return NSFetchRequest<Professor>(entityName: "Professor")
     }
 
-    @NSManaged public var name: String?
     @NSManaged public var age: String?
+    @NSManaged public var name: String?
     @NSManaged public var course: Course?
+    @NSManaged public var department: Department?
 
 }
 

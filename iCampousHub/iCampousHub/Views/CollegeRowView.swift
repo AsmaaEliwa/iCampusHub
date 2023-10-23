@@ -5,7 +5,7 @@
 //  Created by asmaa gamal  on 23/10/2023.
 //
 
-import SwiftUI
+//import SwiftUI
 
 //struct CollegeRowView: View {
 //    var college : CollegeInfo

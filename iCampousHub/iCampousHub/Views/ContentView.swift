@@ -42,7 +42,7 @@ struct ContentView: View {
 ////        self.alert(isPresented: isAlertPresented ? alert : nil)
 //    }
     var body: some View {
-        NavigationSplitView {
+        NavigationStack {
             ZStack{
                 LinearGradient(gradient: Gradient(colors: [ .white , .brown]), startPoint: .top, endPoint: .bottom).edgesIgnoringSafeArea(.all)
                 VStack{
@@ -63,7 +63,7 @@ struct ContentView: View {
                                 
                             }else{
                                 CollegeDataManager.shared.addCollege(name: collegeName, address: collegeAdress , nOfStudents: noOfStudents, yearPayment: Float(yearPayment) ?? 0)
-                                resetInputs()
+//                                resetInputs()
                             }
                             
                             }label: {
@@ -91,8 +91,6 @@ struct ContentView: View {
                 
                 
             }
-        }detail:{
-            Text("Select a Landmark")
         }
     }
 

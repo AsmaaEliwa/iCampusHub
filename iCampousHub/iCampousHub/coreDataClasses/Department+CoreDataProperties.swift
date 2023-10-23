@@ -2,7 +2,7 @@
 //  Department+CoreDataProperties.swift
 //  iCampousHub
 //
-//  Created by asmaa gamal  on 21/10/2023.
+//  Created by asmaa gamal  on 23/10/2023.
 //
 //
 
@@ -19,6 +19,7 @@ extension Department {
     @NSManaged public var name: String?
     @NSManaged public var college: College?
     @NSManaged public var courses: NSOrderedSet?
+    @NSManaged public var professors: NSSet?
 
 }
 
@@ -54,6 +55,23 @@ extension Department {
 
     @objc(removeCourses:)
     @NSManaged public func removeFromCourses(_ values: NSOrderedSet)
+
+}
+
+// MARK: Generated accessors for professors
+extension Department {
+
+    @objc(addProfessorsObject:)
+    @NSManaged public func addToProfessors(_ value: Professor)
+
+    @objc(removeProfessorsObject:)
+    @NSManaged public func removeFromProfessors(_ value: Professor)
+
+    @objc(addProfessors:)
+    @NSManaged public func addToProfessors(_ values: NSSet)
+
+    @objc(removeProfessors:)
+    @NSManaged public func removeFromProfessors(_ values: NSSet)
 
 }
 
