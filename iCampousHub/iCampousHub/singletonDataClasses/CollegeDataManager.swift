@@ -21,11 +21,14 @@ class CollegeDataManager{
         college.name = name
         college.nOfStudents = nOfStudents
         college.payment = yearPayment
+        college.timestamp = Date()
         do {
             try? viewContext.save()
             print("College saved")
         }catch{
-            print("Error saving college: \(error)")
+            let nsError = error as NSError
+            fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
+            print("Error saving college: \(nsError)")
         }
     }
     func fetchColleges()->[College]{
