@@ -28,5 +28,16 @@ class CollegeDataManager{
             print("Error saving college: \(error)")
         }
     }
+    func fetchColleges()->[College]{
+        let request: NSFetchRequest<College> = College.fetchRequest()
+         
+         do {
+             let colleges = try viewContext.fetch(request)
+             return colleges
+         } catch {
+             print("Error fetching colleges: \(error)")
+             return []
+         }
+    }
     
 }

@@ -17,7 +17,6 @@
 		7F24A2252AE475EB00460A65 /* CollegeDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F24A2242AE475EB00460A65 /* CollegeDataManager.swift */; };
 		7F24A2272AE4B36D00460A65 /* AllCollegesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F24A2262AE4B36D00460A65 /* AllCollegesView.swift */; };
 		7F24A2292AE6A10800460A65 /* CollegeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F24A2282AE6A10800460A65 /* CollegeInfo.swift */; };
-		7F24A22C2AE6A34000460A65 /* CollegeRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F24A22B2AE6A34000460A65 /* CollegeRowView.swift */; };
 		7F24A2372AE6C89F00460A65 /* Course+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F24A22D2AE6C89F00460A65 /* Course+CoreDataClass.swift */; };
 		7F24A2382AE6C89F00460A65 /* Course+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F24A22E2AE6C89F00460A65 /* Course+CoreDataProperties.swift */; };
 		7F24A2392AE6C89F00460A65 /* Student+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F24A22F2AE6C89F00460A65 /* Student+CoreDataClass.swift */; };
@@ -42,7 +41,6 @@
 		7F24A2242AE475EB00460A65 /* CollegeDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeDataManager.swift; sourceTree = "<group>"; };
 		7F24A2262AE4B36D00460A65 /* AllCollegesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCollegesView.swift; sourceTree = "<group>"; };
 		7F24A2282AE6A10800460A65 /* CollegeInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeInfo.swift; sourceTree = "<group>"; };
-		7F24A22B2AE6A34000460A65 /* CollegeRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeRowView.swift; sourceTree = "<group>"; };
 		7F24A22D2AE6C89F00460A65 /* Course+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Course+CoreDataClass.swift"; sourceTree = "<group>"; };
 		7F24A22E2AE6C89F00460A65 /* Course+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Course+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		7F24A22F2AE6C89F00460A65 /* Student+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataClass.swift"; sourceTree = "<group>"; };
@@ -137,7 +135,6 @@
 				7F24A2262AE4B36D00460A65 /* AllCollegesView.swift */,
 				7F24A1FE2AE42CF700460A65 /* ContentView.swift */,
 				7F24A20F2AE465E300460A65 /* myBtn.swift */,
-				7F24A22B2AE6A34000460A65 /* CollegeRowView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -224,7 +221,6 @@
 				7F24A1FF2AE42CF700460A65 /* ContentView.swift in Sources */,
 				7F24A2382AE6C89F00460A65 /* Course+CoreDataProperties.swift in Sources */,
 				7F24A2102AE465E300460A65 /* myBtn.swift in Sources */,
-				7F24A22C2AE6A34000460A65 /* CollegeRowView.swift in Sources */,
 				7F24A23C2AE6C89F00460A65 /* Department+CoreDataProperties.swift in Sources */,
 				7F24A2252AE475EB00460A65 /* CollegeDataManager.swift in Sources */,
 				7F24A23E2AE6C89F00460A65 /* College+CoreDataProperties.swift in Sources */,

@@ -26,21 +26,7 @@ struct ContentView: View {
          noOfStudents = ""
          yearPayment = ""
     }
-//    func validationAlert(){
-//
-//
-//          let alert = Alert(
-//              title: Text("Validation Error"),
-//              message: Text("Please fill in all the fields."),
-//              dismissButton: .default(Text("OK")) {
-//                  // This block is executed when the OK button is pressed
-//                  isAlertPresented = false
-//              }
-//          )
-//
-//          // Present the alert using the .alert modifier
-////        self.alert(isPresented: isAlertPresented ? alert : nil)
-//    }
+
     var body: some View {
         NavigationStack {
             ZStack{
@@ -55,7 +41,7 @@ struct ContentView: View {
                         input(text:$collegeAdress , placeholder: "Enter College Address", label:"College Address" )
                         input(text:$noOfStudents,placeholder: "Enter Number Of Students",label: "Number Of Students")
                         input(text: $yearPayment , placeholder: "Enter Year Payment",label: "Year Payment")
-                        NavigationLink(destination: AllCollegesView()){
+                            
                         Button{
                             if collegeName.isEmpty || collegeAdress.isEmpty || noOfStudents.isEmpty || yearPayment.isEmpty {
                                 isAlertPresented = true
@@ -63,13 +49,16 @@ struct ContentView: View {
                                 
                             }else{
                                 CollegeDataManager.shared.addCollege(name: collegeName, address: collegeAdress , nOfStudents: noOfStudents, yearPayment: Float(yearPayment) ?? 0)
-//                                resetInputs()
+                                resetInputs()
                             }
                             
                             }label: {
                                 myBtn(title: "Add College")
                             }
-                        }
+                      
+                        NavigationLink(destination: AllCollegesView()) {
+                            Text("View All Colleges")
+                            }
   
                     }.alert(isPresented: $isAlertPresented) {
                         Alert(

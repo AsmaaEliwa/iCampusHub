@@ -7,10 +7,28 @@
 
 import Foundation
 import SwiftUI
+import CoreData
 struct AllCollegesView: View {
-    var body: some View{
+    let colleges = CollegeDataManager.shared.fetchColleges()
+    @State private var  selectedCollege: College?
+    var body: some View {
         VStack{
-            Text("All")
+            List{
+                ForEach(colleges, id: \.self) { college in
+                    NavigationLink(
+                                 destination: CollegeInfo(college: college),
+                                 tag: college,
+                                 selection: $selectedCollege
+                             ) {
+                                 Text(college.name ?? "")
+                             }
+                             .onTapGesture {
+                                 selectedCollege = college
+                             }
+                }
+                
+            }
+            
         }
     }
 }
