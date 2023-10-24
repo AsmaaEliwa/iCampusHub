@@ -52,8 +52,8 @@ extension College {
     @objc(removeDepartmentsObject:)
     @NSManaged public func removeFromDepartments(_ value: Department)
 
-    @objc(addDepartments:)
-    @NSManaged public func addToDepartments(_ values: NSOrderedSet)
+//    @objc(addDepartments:)
+//    @NSManaged public func addToDepartments(_ values: NSOrderedSet)
 
     @objc(removeDepartments:)
     @NSManaged public func removeFromDepartments(_ values: NSOrderedSet)

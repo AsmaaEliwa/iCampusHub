@@ -10,17 +10,52 @@ import SwiftUI
 struct CollegeInfo:View{
     var college : College
     var body: some View{
-        LinearGradient(gradient: Gradient(colors: [ .white , .brown]), startPoint: .top, endPoint: .bottom).edgesIgnoringSafeArea(.all)
-        VStack(alignment: .leading){
-            Text("College Name : \(college.name ?? "not Found")" )
-            Spacer()
-            Text("College Address : \(college.adress ?? "not Found")" )
-            Spacer()
-            Text("Number of Students  : \(college.nOfStudents ?? "not Found")" )
-            Spacer()
-            Text("College Payment : \(college.payment ?? 0 )" )
-            Spacer()
+        ZStack{
+            LinearGradient(gradient: Gradient(colors: [ .white , .brown]), startPoint: .top, endPoint: .bottom).edgesIgnoringSafeArea(.all)
+            VStack{
+                Text("College Info").font(.system(size: 30 , weight: .medium))
+                Divider()
+                myText(title: "College Name : \(college.name ?? "not Found")" )
+                   
+                myText(title: "College Address : \(college.adress ?? "not Found")" )
+                  
+                myText(title: "Number of Students  : \(college.nOfStudents ?? "not Found")" )
+                
+                myText(title: "College Payment : \(college.payment ?? 0 )" )
+                    
+
+                VStack{
+                    NavigationLink(destination: AddDepartmentView(college:college)){
+                        myBtn(title: "Add A department")
+                    }
+                    HStack{
+                        Button{
+                            
+                        }label: {
+                            deleteBtn(color: .red , title: "Delete")
+                        }
+                        Button{
+                            
+                        }label: {
+                            deleteBtn(color: .green , title: "Edit")
+                        }
+                        
+                    }
+                }
+                .padding()
+                NavigationLink(destination: AllDepartmentsView(college: college)){
+                    Text("All Departments")
+                }
+                Spacer()
+            }
+            
         }
-        
     }
+}
+struct myText:View {
+    var title: String
+    var body: some View{
+        Text(title).font(.system(size: 15 , weight: .medium )).padding()
+    }
+    
 }

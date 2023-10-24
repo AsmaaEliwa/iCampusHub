@@ -27,6 +27,11 @@
 		7F24A23E2AE6C89F00460A65 /* College+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F24A2342AE6C89F00460A65 /* College+CoreDataProperties.swift */; };
 		7F24A23F2AE6C89F00460A65 /* Professor+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F24A2352AE6C89F00460A65 /* Professor+CoreDataClass.swift */; };
 		7F24A2402AE6C89F00460A65 /* Professor+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F24A2362AE6C89F00460A65 /* Professor+CoreDataProperties.swift */; };
+		7F24A2422AE7F17800460A65 /* AllDepartmentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F24A2412AE7F17800460A65 /* AllDepartmentsView.swift */; };
+		7F24A2442AE7F21F00460A65 /* AddDepartmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F24A2432AE7F21F00460A65 /* AddDepartmentView.swift */; };
+		7F24A2462AE818F000460A65 /* deleteBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F24A2452AE818F000460A65 /* deleteBtn.swift */; };
+		7F24A2482AE83F5700460A65 /* DepartmentDataMenger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F24A2472AE83F5700460A65 /* DepartmentDataMenger.swift */; };
+		7F24A27D2AE86FA300460A65 /* DepartmentDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F24A27C2AE86FA300460A65 /* DepartmentDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +56,11 @@
 		7F24A2342AE6C89F00460A65 /* College+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "College+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		7F24A2352AE6C89F00460A65 /* Professor+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Professor+CoreDataClass.swift"; sourceTree = "<group>"; };
 		7F24A2362AE6C89F00460A65 /* Professor+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Professor+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7F24A2412AE7F17800460A65 /* AllDepartmentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllDepartmentsView.swift; sourceTree = "<group>"; };
+		7F24A2432AE7F21F00460A65 /* AddDepartmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDepartmentView.swift; sourceTree = "<group>"; };
+		7F24A2452AE818F000460A65 /* deleteBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deleteBtn.swift; sourceTree = "<group>"; };
+		7F24A2472AE83F5700460A65 /* DepartmentDataMenger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentDataMenger.swift; sourceTree = "<group>"; };
+		7F24A27C2AE86FA300460A65 /* DepartmentDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				7F24A2242AE475EB00460A65 /* CollegeDataManager.swift */,
+				7F24A2472AE83F5700460A65 /* DepartmentDataMenger.swift */,
 			);
 			path = singletonDataClasses;
 			sourceTree = "<group>";
@@ -135,6 +146,10 @@
 				7F24A2262AE4B36D00460A65 /* AllCollegesView.swift */,
 				7F24A1FE2AE42CF700460A65 /* ContentView.swift */,
 				7F24A20F2AE465E300460A65 /* myBtn.swift */,
+				7F24A2412AE7F17800460A65 /* AllDepartmentsView.swift */,
+				7F24A2432AE7F21F00460A65 /* AddDepartmentView.swift */,
+				7F24A2452AE818F000460A65 /* deleteBtn.swift */,
+				7F24A27C2AE86FA300460A65 /* DepartmentDetails.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -211,11 +226,15 @@
 			files = (
 				7F24A2372AE6C89F00460A65 /* Course+CoreDataClass.swift in Sources */,
 				7F24A2392AE6C89F00460A65 /* Student+CoreDataClass.swift in Sources */,
+				7F24A2442AE7F21F00460A65 /* AddDepartmentView.swift in Sources */,
+				7F24A2482AE83F5700460A65 /* DepartmentDataMenger.swift in Sources */,
+				7F24A27D2AE86FA300460A65 /* DepartmentDetails.swift in Sources */,
 				7F24A2092AE42CFF00460A65 /* iCampousHub.xcdatamodeld in Sources */,
 				7F24A2292AE6A10800460A65 /* CollegeInfo.swift in Sources */,
 				7F24A2062AE42CFF00460A65 /* Persistence.swift in Sources */,
 				7F24A2402AE6C89F00460A65 /* Professor+CoreDataProperties.swift in Sources */,
 				7F24A23F2AE6C89F00460A65 /* Professor+CoreDataClass.swift in Sources */,
+				7F24A2462AE818F000460A65 /* deleteBtn.swift in Sources */,
 				7F24A23D2AE6C89F00460A65 /* College+CoreDataClass.swift in Sources */,
 				7F24A2272AE4B36D00460A65 /* AllCollegesView.swift in Sources */,
 				7F24A1FF2AE42CF700460A65 /* ContentView.swift in Sources */,
@@ -223,6 +242,7 @@
 				7F24A2102AE465E300460A65 /* myBtn.swift in Sources */,
 				7F24A23C2AE6C89F00460A65 /* Department+CoreDataProperties.swift in Sources */,
 				7F24A2252AE475EB00460A65 /* CollegeDataManager.swift in Sources */,
+				7F24A2422AE7F17800460A65 /* AllDepartmentsView.swift in Sources */,
 				7F24A23E2AE6C89F00460A65 /* College+CoreDataProperties.swift in Sources */,
 				7F24A1FD2AE42CF700460A65 /* iCampousHubApp.swift in Sources */,
 				7F24A23A2AE6C89F00460A65 /* Student+CoreDataProperties.swift in Sources */,
