@@ -26,8 +26,17 @@ struct ContentView: View {
          noOfStudents = ""
          yearPayment = ""
     }
-
+    init() {
+        UINavigationBar.appearance().largeTitleTextAttributes = [
+            .foregroundColor: UIColor.brown // Set the text color
+        ]
+        
+        // Set the background color
+        UINavigationBar.appearance().backgroundColor = UIColor.clear
+        
+    }
     var body: some View {
+       
         NavigationStack {
             ZStack{
                 LinearGradient(gradient: Gradient(colors: [ .white , .brown]), startPoint: .top, endPoint: .bottom).edgesIgnoringSafeArea(.all)
@@ -148,3 +157,16 @@ struct input: View{
     
 }
 
+//struct ContentView: View {
+//    init() {
+//        // Customize the UINavigationBar appearance here
+//        UINavigationBar.appearance().largeTitleTextAttributes = [
+//            .foregroundColor: UIColor.brown // Set the text color
+//        ]
+//
+//        // Set the background color
+//        UINavigationBar.appearance().backgroundColor = UIColor.white // Set your desired color
+//    }
+//
+//    // ... Rest of your ContentView code ...
+//}

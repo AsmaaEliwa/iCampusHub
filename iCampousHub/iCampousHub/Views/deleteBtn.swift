@@ -13,7 +13,7 @@ struct deleteBtn: View {
     var body: some View {
             Text(title).padding(10)
                 .background(color)
-                .font(.system(size: 25 ,weight: .medium))
+                .font(.system(size: 15 ,weight: .medium))
                 .cornerRadius(15).foregroundColor(.white)
                 .padding()
         
