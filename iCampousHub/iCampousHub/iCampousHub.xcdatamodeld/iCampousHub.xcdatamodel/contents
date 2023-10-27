@@ -18,7 +18,7 @@
     <entity name="Department" representedClassName=".Department" syncable="YES">
         <attribute name="name" optional="YES" attributeType="String"/>
         <relationship name="college" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="College" inverseName="departments" inverseEntity="College"/>
-        <relationship name="courses" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Course" inverseName="department" inverseEntity="Course"/>
+        <relationship name="courses" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Course" inverseName="department" inverseEntity="Course"/>
         <relationship name="professors" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Professor" inverseName="department" inverseEntity="Professor"/>
     </entity>
     <entity name="Professor" representedClassName=".Professor" syncable="YES">

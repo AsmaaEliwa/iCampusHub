@@ -19,13 +19,17 @@ class CourseDataManger {
         course.name = name
         course.hours = hours
         do {
+            
             try viewContext.save()
+            
             print("coures Saved")
             return course
         }catch {
+            
+            print(error)
             let nsError = error as NSError
             fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
-//            print(nsError)
+           
         }
       
     }

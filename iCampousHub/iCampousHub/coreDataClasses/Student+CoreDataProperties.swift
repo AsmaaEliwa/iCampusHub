@@ -2,7 +2,7 @@
 //  Student+CoreDataProperties.swift
 //  iCampousHub
 //
-//  Created by asmaa gamal  on 23/10/2023.
+//  Created by asmaa gamal  on 26/10/2023.
 //
 //
 
@@ -16,8 +16,8 @@ extension Student {
         return NSFetchRequest<Student>(entityName: "Student")
     }
 
-    @NSManaged public var name: String?
     @NSManaged public var age: Int16
+    @NSManaged public var name: String?
     @NSManaged public var courses: NSSet?
 
 }

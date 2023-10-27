@@ -2,7 +2,7 @@
 //  College+CoreDataProperties.swift
 //  iCampousHub
 //
-//  Created by asmaa gamal  on 23/10/2023.
+//  Created by asmaa gamal  on 26/10/2023.
 //
 //
 
@@ -52,8 +52,8 @@ extension College {
     @objc(removeDepartmentsObject:)
     @NSManaged public func removeFromDepartments(_ value: Department)
 
-//    @objc(addDepartments:)
-//    @NSManaged public func addToDepartments(_ values: NSOrderedSet)
+    @objc(addDepartments:)
+    @NSManaged public func addToDepartments(_ values: NSOrderedSet)
 
     @objc(removeDepartments:)
     @NSManaged public func removeFromDepartments(_ values: NSOrderedSet)
