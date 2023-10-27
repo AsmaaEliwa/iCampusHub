@@ -13,7 +13,7 @@ struct DepartmentDetails: View {
     @State private var showCourseInput = false
     @State private var courseName = ""
     @State private var courseHours = ""
-    
+    @State private var courses: [Course] = []
 //    var courses: [Course] {
 //           department?.courses?.array as? [Course] ?? []
 //       }
@@ -27,7 +27,8 @@ struct DepartmentDetails: View {
                 VStack{
                 Text("Department Name : \(department?.name ?? "")")
                     List {
-                                           ForEach(Array(department?.courses as? Set<Course> ?? []), id: \.self) { course in
+                                           ForEach(Array(courses as? Set<Course> ?? []), id: \.self) { course in
+                                               
                                                Text(course.name ?? "")
                                            }
                                        }
@@ -47,23 +48,8 @@ struct DepartmentDetails: View {
                 }
                 Spacer()
                     .sheet(isPresented: $showCourseInput) {
-                        CourseInputView(courseName: $courseName, courseHours: $courseHours,department: $department)
+                        CourseInputView(courseName: $courseName, courseHours: $courseHours,department: $department,courses:$courses)
                     }
-//                    .alert(isPresented: $showAddCourseAlert) {
-//                        Alert(
-//                            title: Text("Add Course To This Department"),
-//                            message: {
-//                                VStack {
-//                                    Text("Enter course details:")
-//                                    input(text: $courseName, placeholder: "Course Name", label: "Course Name")
-//                                    input(text: $courseHours, placeholder: "Course Hours", label: "Course Hours")
-//                                }
-//                            }, primaryButton: .default(Text("Add")) {
-//                                // Handle the "Add" button action here
-//                            },
-//                            secondaryButton: .cancel(Text("Cancel"))
-//                        )
-//                    }
             }
             
             
@@ -81,6 +67,7 @@ struct CourseInputView: View {
     @Binding var courseHours: String
     @Binding var  department:Department?
     @State var course:Course?
+    @Binding var  courses :[Course]
     var body: some View {
         Form {
             Section(header: Text("Enter course details:")) {
@@ -91,7 +78,7 @@ struct CourseInputView: View {
                     
                     department?.addToCourses(course)
                     
-                    
+                    courses.append( course)
                 }label: {
                     deleteBtn(color: .brown, title: "Add")
                 }.frame(alignment:.center)
