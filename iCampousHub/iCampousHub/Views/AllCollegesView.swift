@@ -8,9 +8,17 @@
 import Foundation
 import SwiftUI
 import CoreData
+
+
+
+
+
+
 struct AllCollegesView: View {
-    let colleges = CollegeDataManager.shared.fetchColleges()
+//    @ObservedObject var dataManager = DataManager()
+    @State var colleges: [College] = []
     @State private var  selectedCollege: College?
+    
     var body: some View {
         VStack{
             List{
@@ -30,5 +38,10 @@ struct AllCollegesView: View {
             }
             
         }
+        .onAppear {
+                   // Load colleges from Core Data
+            colleges = DataManager.shared.fetchData()
+               }
     }
+        
 }

@@ -13,7 +13,7 @@ struct myBtn: View{
     var body: some View {
   
         Text(title).padding(10)
-            .background(.white)
+            .background(.black.gradient)
             .font(.system(size: 25 ,weight: .medium))
             .cornerRadius(15).foregroundColor(.brown)
             .padding()

@@ -8,6 +8,7 @@
 import SwiftUI
 import CoreData
 struct AddDepartmentView: View  {
+//    @ObservedObject var dataManager = DataManager()
     @State private var departmentName = ""
     @State private  var showAlert = false
     var college:College?
@@ -24,18 +25,20 @@ struct AddDepartmentView: View  {
                     .padding()
                 Divider()
                 input(text: $departmentName, placeholder: "Enter the department name", label: "Name")
+                
                 Button{
                     if departmentName.isEmpty {
                         showAlert = true
                     }else{
-                        var newDepartment = DepartmentDataMenger.shared.AddDepartment(name:departmentName )
+                        DataManager.shared.saveDepartmentData (name:departmentName ,college: college!)
                         
-                        college?.addToDepartments(newDepartment)
+//                        college?.addToDepartments(department as Department)
                         resetInput()
                     }
-                }label: {
-                    myBtn(title: "Add")
-                }
+                    }label:  {
+                        myBtn(title: "Add")
+                    }
+                
                 Spacer()
                     .alert(isPresented: $showAlert)  {
                         Alert(title: Text("Error"),

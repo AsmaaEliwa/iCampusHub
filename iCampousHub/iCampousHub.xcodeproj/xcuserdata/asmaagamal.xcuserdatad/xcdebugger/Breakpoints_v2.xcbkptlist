@@ -14,8 +14,8 @@
             filePath = "iCampousHub/Views/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "53"
-            endingLineNumber = "53"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
             landmarkName = "body"
             landmarkType = "24">
             <Locations>
@@ -92,8 +92,8 @@
             filePath = "iCampousHub/Views/DepartmentDetails.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "78"
-            endingLineNumber = "78"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
             landmarkName = "body"
             landmarkType = "24">
             <Locations>
@@ -140,8 +140,8 @@
             filePath = "iCampousHub/Views/DepartmentDetails.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "80"
-            endingLineNumber = "80"
+            startingLineNumber = "110"
+            endingLineNumber = "110"
             landmarkName = "body"
             landmarkType = "24">
             <Locations>
@@ -203,13 +203,13 @@
             filePath = "iCampousHub/Views/DepartmentDetails.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
             landmarkName = "DepartmentDetails"
             landmarkType = "14">
             <Locations>
                <Location
-                  uuid = "55C8F31A-B668-471D-889B-20CD1F6EB165 - a00693057415680f"
+                  uuid = "55C8F31A-B668-471D-889B-20CD1F6EB165 - a00693057415682e"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -219,12 +219,12 @@
                   urlString = "file:///Users/asmaagamal/Desktop/iCampusHub/iCampousHub/iCampousHub/Views/DepartmentDetails.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "21"
-                  endingLineNumber = "21"
-                  offsetFromSymbolStart = "467">
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "614">
                </Location>
                <Location
-                  uuid = "55C8F31A-B668-471D-889B-20CD1F6EB165 - a006930574156850"
+                  uuid = "55C8F31A-B668-471D-889B-20CD1F6EB165 - a00693057415682e"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -234,9 +234,24 @@
                   urlString = "file:///Users/asmaagamal/Desktop/iCampusHub/iCampousHub/iCampousHub/Views/DepartmentDetails.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "22"
-                  endingLineNumber = "22"
-                  offsetFromSymbolStart = "467">
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "670">
+               </Location>
+               <Location
+                  uuid = "55C8F31A-B668-471D-889B-20CD1F6EB165 - a00693057415682e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iCampousHub.DepartmentDetails.body.getter : some"
+                  moduleName = "iCampousHub"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/asmaagamal/Desktop/iCampusHub/iCampousHub/iCampousHub/Views/DepartmentDetails.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "641">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -251,9 +266,9 @@
             filePath = "iCampousHub/singletonDataClasses/CourseDataManger.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
-            landmarkName = "addCourse(name:hours:)"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "addCourse(name:hours:department:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -267,9 +282,9 @@
             filePath = "iCampousHub/singletonDataClasses/CourseDataManger.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
-            landmarkName = "addCourse(name:hours:)"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "addCourse(name:hours:department:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -283,26 +298,11 @@
             filePath = "iCampousHub/singletonDataClasses/CourseDataManger.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
-            landmarkName = "addCourse(name:hours:)"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "addCourse(name:hours:department:)"
             landmarkType = "7">
             <Locations>
-               <Location
-                  uuid = "BC17055E-429B-4A9A-A927-E263FA1D79E4 - 5765eed11429175"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "iCampousHub.CourseDataManger.addCourse(name: Swift.String, hours: Swift.Float) -&gt; iCampousHub.Course"
-                  moduleName = "iCampousHub"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/asmaagamal/Desktop/iCampusHub/iCampousHub/iCampousHub/singletonDataClasses/CourseDataManger.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "29"
-                  endingLineNumber = "29"
-                  offsetFromSymbolStart = "804">
-               </Location>
                <Location
                   uuid = "BC17055E-429B-4A9A-A927-E263FA1D79E4 - 5765eed11429196"
                   shouldBeEnabled = "Yes"
@@ -318,6 +318,36 @@
                   endingLineNumber = "30"
                   offsetFromSymbolStart = "804">
                </Location>
+               <Location
+                  uuid = "BC17055E-429B-4A9A-A927-E263FA1D79E4 - b557deee3248960d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iCampousHub.CourseDataManger.addCourse(name: Swift.String, hours: Swift.Float, department: iCampousHub.Department) -&gt; iCampousHub.Course"
+                  moduleName = "iCampousHub"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/asmaagamal/Desktop/iCampusHub/iCampousHub/iCampousHub/singletonDataClasses/CourseDataManger.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "859">
+               </Location>
+               <Location
+                  uuid = "BC17055E-429B-4A9A-A927-E263FA1D79E4 - b557deee3248960d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iCampousHub.CourseDataManger.addCourse(name: Swift.String, hours: Swift.Float, department: iCampousHub.Department) -&gt; iCampousHub.Course"
+                  moduleName = "iCampousHub"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/asmaagamal/Desktop/iCampusHub/iCampousHub/iCampousHub/singletonDataClasses/CourseDataManger.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "1115">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -331,9 +361,9 @@
             filePath = "iCampousHub/singletonDataClasses/CourseDataManger.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
-            landmarkName = "addCourse(name:hours:)"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "addCourse(name:hours:department:)"
             landmarkType = "7">
             <Locations>
                <Location
@@ -372,62 +402,107 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "A121085A-A892-4455-B3EE-AFCC567113EB"
-            shouldBeEnabled = "Yes"
+            uuid = "3549A279-C93E-4701-983E-BD7A6F5C58ED"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "iCampousHub/Views/DepartmentDetails.swift"
+            filePath = "iCampousHub/Views/AllCollegesView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "body"
-            landmarkType = "24">
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "AllCollegesView"
+            landmarkType = "14">
             <Locations>
                <Location
-                  uuid = "A121085A-A892-4455-B3EE-AFCC567113EB - d877cf004f143f77"
+                  uuid = "3549A279-C93E-4701-983E-BD7A6F5C58ED - 485a3ff6ffaab844"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;iCampousHub.Course&gt;, iCampousHub.Course, SwiftUI.Text&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.navigationBarTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Button&lt;iCampousHub.deleteBtn&gt;, SwiftUI.Button&lt;iCampousHub.deleteBtn&gt;)&gt;&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Divider, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.navigationBarTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Button&lt;iCampousHub.deleteBtn&gt;, SwiftUI.Button&lt;iCampousHub.deleteBtn&gt;)&gt;&gt;)&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.sheet&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, onDismiss: Swift.Optional&lt;() -&gt; ()&gt;, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.edgesIgnoringSafeArea(SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Divider, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.navigationBarTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Button&lt;iCampousHub.deleteBtn&gt;, SwiftUI.Button&lt;iCampousHub.deleteBtn&gt;)&gt;&gt;)&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.sheet&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, onDismiss: Swift.Optional&lt;() -&gt; ()&gt;, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0)&gt;&gt;)&gt; in iCampousHub.DepartmentDetails.body.getter : some"
+                  symbolName = "iCampousHub.AllCollegesView.init() -&gt; iCampousHub.AllCollegesView"
                   moduleName = "iCampousHub"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/asmaagamal/Desktop/iCampusHub/iCampousHub/iCampousHub/Views/DepartmentDetails.swift"
+                  urlString = "file:///Users/asmaagamal/Desktop/iCampusHub/iCampousHub/iCampousHub/Views/AllCollegesView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "30"
-                  endingLineNumber = "30"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "203">
+               </Location>
+               <Location
+                  uuid = "3549A279-C93E-4701-983E-BD7A6F5C58ED - 5743366d5773fdcd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iCampousHub.AllCollegesView.init(colleges: iCampousHub.CollegeModel) -&gt; iCampousHub.AllCollegesView"
+                  moduleName = "iCampousHub"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/asmaagamal/Desktop/iCampusHub/iCampousHub/iCampousHub/Views/AllCollegesView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "8">
+               </Location>
+               <Location
+                  uuid = "3549A279-C93E-4701-983E-BD7A6F5C58ED - f1a00f7ece0e87f9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iCampousHub.AllCollegesView.body.getter : some"
+                  moduleName = "iCampousHub"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/asmaagamal/Desktop/iCampusHub/iCampousHub/iCampousHub/Views/AllCollegesView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "174">
+               </Location>
+               <Location
+                  uuid = "3549A279-C93E-4701-983E-BD7A6F5C58ED - f1a00f7ece0e87f9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iCampousHub.AllCollegesView.body.getter : some"
+                  moduleName = "iCampousHub"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/asmaagamal/Desktop/iCampusHub/iCampousHub/iCampousHub/Views/AllCollegesView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
                   offsetFromSymbolStart = "151">
                </Location>
                <Location
-                  uuid = "A121085A-A892-4455-B3EE-AFCC567113EB - d21edaa99a718c16"
+                  uuid = "3549A279-C93E-4701-983E-BD7A6F5C58ED - f1a00f7ece0e87f9"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (iCampousHub.Course) -&gt; SwiftUI.Text in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;iCampousHub.Course&gt;, iCampousHub.Course, SwiftUI.Text&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.navigationBarTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Button&lt;iCampousHub.deleteBtn&gt;, SwiftUI.Button&lt;iCampousHub.deleteBtn&gt;)&gt;&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Divider, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.navigationBarTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Button&lt;iCampousHub.deleteBtn&gt;, SwiftUI.Button&lt;iCampousHub.deleteBtn&gt;)&gt;&gt;)&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.sheet&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, onDismiss: Swift.Optional&lt;() -&gt; ()&gt;, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.edgesIgnoringSafeArea(SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Divider, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.navigationBarTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Button&lt;iCampousHub.deleteBtn&gt;, SwiftUI.Button&lt;iCampousHub.deleteBtn&gt;)&gt;&gt;)&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.sheet&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, onDismiss: Swift.Optional&lt;() -&gt; ()&gt;, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0)&gt;&gt;)&gt; in iCampousHub.DepartmentDetails.body.getter : some"
+                  symbolName = "iCampousHub.AllCollegesView.body.getter : some"
                   moduleName = "iCampousHub"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/asmaagamal/Desktop/iCampusHub/iCampousHub/iCampousHub/Views/DepartmentDetails.swift"
+                  urlString = "file:///Users/asmaagamal/Desktop/iCampusHub/iCampousHub/iCampousHub/Views/AllCollegesView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "31"
-                  endingLineNumber = "31"
-                  offsetFromSymbolStart = "71">
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "148">
                </Location>
                <Location
-                  uuid = "A121085A-A892-4455-B3EE-AFCC567113EB - d21edaa99a718c35"
+                  uuid = "3549A279-C93E-4701-983E-BD7A6F5C58ED - f1a00f7ece0e87f9"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (iCampousHub.Course) -&gt; SwiftUI.Text in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;iCampousHub.Course&gt;, iCampousHub.Course, SwiftUI.Text&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.navigationBarTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Button&lt;iCampousHub.deleteBtn&gt;, SwiftUI.Button&lt;iCampousHub.deleteBtn&gt;)&gt;&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Divider, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.navigationBarTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Button&lt;iCampousHub.deleteBtn&gt;, SwiftUI.Button&lt;iCampousHub.deleteBtn&gt;)&gt;&gt;)&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.sheet&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, onDismiss: Swift.Optional&lt;() -&gt; ()&gt;, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.edgesIgnoringSafeArea(SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Divider, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.navigationBarTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Button&lt;iCampousHub.deleteBtn&gt;, SwiftUI.Button&lt;iCampousHub.deleteBtn&gt;)&gt;&gt;)&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.sheet&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, onDismiss: Swift.Optional&lt;() -&gt; ()&gt;, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0)&gt;&gt;)&gt; in iCampousHub.DepartmentDetails.body.getter : some"
+                  symbolName = "iCampousHub.AllCollegesView.body.getter : some"
                   moduleName = "iCampousHub"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/asmaagamal/Desktop/iCampusHub/iCampousHub/iCampousHub/Views/DepartmentDetails.swift"
+                  urlString = "file:///Users/asmaagamal/Desktop/iCampusHub/iCampousHub/iCampousHub/Views/AllCollegesView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "32"
-                  endingLineNumber = "32"
-                  offsetFromSymbolStart = "71">
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "171">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -435,49 +510,305 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "9AF3861C-C16A-4723-BD08-7D6DC11657D6"
+            uuid = "D40596C4-7296-410A-A499-7B7EA9514411"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iCampousHub/singletonDataClasses/CollegeDataManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "fetchColleges()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D40596C4-7296-410A-A499-7B7EA9514411 - b2774054a8a7fb36"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iCampousHub.CollegeDataManager.fetchColleges() -&gt; Swift.Array&lt;iCampousHub.College&gt;"
+                  moduleName = "iCampousHub"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/asmaagamal/Desktop/iCampusHub/iCampousHub/iCampousHub/singletonDataClasses/CollegeDataManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "118">
+               </Location>
+               <Location
+                  uuid = "D40596C4-7296-410A-A499-7B7EA9514411 - b2774054a8a7fbd7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iCampousHub.CollegeDataManager.fetchColleges() -&gt; Swift.Array&lt;iCampousHub.College&gt;"
+                  moduleName = "iCampousHub"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/asmaagamal/Desktop/iCampusHub/iCampousHub/iCampousHub/singletonDataClasses/CollegeDataManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "118">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D7036B3E-F207-4610-9355-CF595B9927CE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iCampousHub/Views/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "ContentView"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "85A3854E-BB08-480A-BD69-A790F4D792BA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iCampousHub/Views/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "ContentView"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "85A3854E-BB08-480A-BD69-A790F4D792BA - 699d76ad3b7ef2d5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iCampousHub.ContentView.resetInputs() -&gt; ()"
+                  moduleName = "iCampousHub"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/asmaagamal/Desktop/iCampusHub/iCampousHub/iCampousHub/Views/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "101">
+               </Location>
+               <Location
+                  uuid = "85A3854E-BB08-480A-BD69-A790F4D792BA - 699d76ad3b7ef2d5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iCampousHub.ContentView.resetInputs() -&gt; ()"
+                  moduleName = "iCampousHub"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/asmaagamal/Desktop/iCampusHub/iCampousHub/iCampousHub/Views/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "38">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DE5216B7-B9F1-423A-9B1F-DF8BDC3F2510"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "iCampousHub/Views/DepartmentDetails.swift"
+            filePath = "iCampousHub/Views/AddDepartmentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
             landmarkName = "body"
             landmarkType = "24">
             <Locations>
                <Location
-                  uuid = "9AF3861C-C16A-4723-BD08-7D6DC11657D6 - d21edaa99a718c16"
+                  uuid = "DE5216B7-B9F1-423A-9B1F-DF8BDC3F2510 - d6546ab4e7762f27"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (iCampousHub.Course) -&gt; SwiftUI.Text in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;iCampousHub.Course&gt;, iCampousHub.Course, SwiftUI.Text&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.navigationBarTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Button&lt;iCampousHub.deleteBtn&gt;, SwiftUI.Button&lt;iCampousHub.deleteBtn&gt;)&gt;&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Divider, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.navigationBarTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Button&lt;iCampousHub.deleteBtn&gt;, SwiftUI.Button&lt;iCampousHub.deleteBtn&gt;)&gt;&gt;)&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.sheet&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, onDismiss: Swift.Optional&lt;() -&gt; ()&gt;, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.edgesIgnoringSafeArea(SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Divider, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.navigationBarTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Button&lt;iCampousHub.deleteBtn&gt;, SwiftUI.Button&lt;iCampousHub.deleteBtn&gt;)&gt;&gt;)&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.sheet&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, onDismiss: Swift.Optional&lt;() -&gt; ()&gt;, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0)&gt;&gt;)&gt; in iCampousHub.DepartmentDetails.body.getter : some"
+                  symbolName = "closure #1 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Divider, iCampousHub.input, SwiftUI.Button&lt;iCampousHub.myBtn&gt;, &lt;&lt;opaque return type of SwiftUI.View.alert(isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, content: () -&gt; SwiftUI.Alert) -&gt; some&gt;&gt;.0)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.edgesIgnoringSafeArea(SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Divider, iCampousHub.input, SwiftUI.Button&lt;iCampousHub.myBtn&gt;, &lt;&lt;opaque return type of SwiftUI.View.alert(isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, content: () -&gt; SwiftUI.Alert) -&gt; some&gt;&gt;.0)&gt;&gt;)&gt; in iCampousHub.AddDepartmentView.body.getter : some"
                   moduleName = "iCampousHub"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/asmaagamal/Desktop/iCampusHub/iCampousHub/iCampousHub/Views/DepartmentDetails.swift"
+                  urlString = "file:///Users/asmaagamal/Desktop/iCampusHub/iCampousHub/iCampousHub/Views/AddDepartmentView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "31"
-                  endingLineNumber = "31"
-                  offsetFromSymbolStart = "71">
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "959">
                </Location>
                <Location
-                  uuid = "9AF3861C-C16A-4723-BD08-7D6DC11657D6 - d21edaa99a718c35"
+                  uuid = "DE5216B7-B9F1-423A-9B1F-DF8BDC3F2510 - d6546ab4e7762f27"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (iCampousHub.Course) -&gt; SwiftUI.Text in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;iCampousHub.Course&gt;, iCampousHub.Course, SwiftUI.Text&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.navigationBarTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Button&lt;iCampousHub.deleteBtn&gt;, SwiftUI.Button&lt;iCampousHub.deleteBtn&gt;)&gt;&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Divider, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.navigationBarTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Button&lt;iCampousHub.deleteBtn&gt;, SwiftUI.Button&lt;iCampousHub.deleteBtn&gt;)&gt;&gt;)&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.sheet&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, onDismiss: Swift.Optional&lt;() -&gt; ()&gt;, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.edgesIgnoringSafeArea(SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Divider, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.navigationBarTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Button&lt;iCampousHub.deleteBtn&gt;, SwiftUI.Button&lt;iCampousHub.deleteBtn&gt;)&gt;&gt;)&gt;&gt;, &lt;&lt;opaque return type of SwiftUI.View.sheet&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, onDismiss: Swift.Optional&lt;() -&gt; ()&gt;, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0)&gt;&gt;)&gt; in iCampousHub.DepartmentDetails.body.getter : some"
+                  symbolName = "closure #1 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Divider, iCampousHub.input, SwiftUI.Button&lt;iCampousHub.myBtn&gt;, &lt;&lt;opaque return type of SwiftUI.View.alert(isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, content: () -&gt; SwiftUI.Alert) -&gt; some&gt;&gt;.0)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.edgesIgnoringSafeArea(SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Divider, iCampousHub.input, SwiftUI.Button&lt;iCampousHub.myBtn&gt;, &lt;&lt;opaque return type of SwiftUI.View.alert(isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, content: () -&gt; SwiftUI.Alert) -&gt; some&gt;&gt;.0)&gt;&gt;)&gt; in iCampousHub.AddDepartmentView.body.getter : some"
                   moduleName = "iCampousHub"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/asmaagamal/Desktop/iCampusHub/iCampousHub/iCampousHub/Views/DepartmentDetails.swift"
+                  urlString = "file:///Users/asmaagamal/Desktop/iCampusHub/iCampousHub/iCampousHub/Views/AddDepartmentView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "32"
-                  endingLineNumber = "32"
-                  offsetFromSymbolStart = "71">
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "955">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DAC87FA5-3F59-4786-9EE3-D7EE30381323"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iCampousHub/Views/AllProfessors.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "AllProfessors"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BDC15A00-5EB1-4F60-834A-BF6C965B509A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iCampousHub/singletonDataClasses/DataManger.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
+            landmarkName = "AddProfessor(name:age:course:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BDC15A00-5EB1-4F60-834A-BF6C965B509A - 5b73afc7b4860185"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iCampousHub.DataManager.AddProfessor(name: Swift.String, age: Swift.String, course: Swift.Optional&lt;iCampousHub.Course&gt;) -&gt; ()"
+                  moduleName = "iCampousHub"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/asmaagamal/Desktop/iCampusHub/iCampousHub/iCampousHub/singletonDataClasses/DataManger.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "124"
+                  endingLineNumber = "124"
+                  offsetFromSymbolStart = "613">
+               </Location>
+               <Location
+                  uuid = "BDC15A00-5EB1-4F60-834A-BF6C965B509A - 401e9ae09e487fe0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iCampousHub.DataManager.AddProfessor(name: Swift.String, age: Swift.String, course: iCampousHub.Course) -&gt; ()"
+                  moduleName = "iCampousHub"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/asmaagamal/Desktop/iCampusHub/iCampousHub/iCampousHub/singletonDataClasses/DataManger.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "124"
+                  endingLineNumber = "124"
+                  offsetFromSymbolStart = "613">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4B4C8EBA-A8E0-4DF3-BE4A-C73A9B49C79D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iCampousHub/Views/AllProfessors.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DC404B3F-8670-4B44-9A8E-DD83D8020D06"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iCampousHub/Views/AddProfessor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "AddProfessor"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "DC404B3F-8670-4B44-9A8E-DD83D8020D06 - 92c47146514e315a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iCampousHub.AddProfessor.body.getter : some"
+                  moduleName = "iCampousHub"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/asmaagamal/Desktop/iCampusHub/iCampousHub/iCampousHub/Views/AddProfessor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "975">
+               </Location>
+               <Location
+                  uuid = "DC404B3F-8670-4B44-9A8E-DD83D8020D06 - 92c47146514e31b9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iCampousHub.AddProfessor.body.getter : some"
+                  moduleName = "iCampousHub"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/asmaagamal/Desktop/iCampusHub/iCampousHub/iCampousHub/Views/AddProfessor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "975">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B5DFD83D-9D61-4E84-8DF2-4158C3B2C376"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iCampousHub/singletonDataClasses/DataManger.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "145"
+            endingLineNumber = "145"
+            landmarkName = "addStudent(name:age:course:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

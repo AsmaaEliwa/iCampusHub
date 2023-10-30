@@ -8,7 +8,7 @@
 import Foundation
 import CoreData
 import SwiftUI
-class DepartmentDataMenger {
+ class DepartmentDataMenger {
     static let  shared = DepartmentDataMenger()
     let  viewContext: NSManagedObjectContext
     private init(){
@@ -47,3 +47,6 @@ class DepartmentDataMenger {
     
     
 }
+
+
+

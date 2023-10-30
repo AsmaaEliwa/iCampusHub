@@ -8,6 +8,7 @@
 import SwiftUI
 import CoreData
 
+
 struct ContentView: View {
     @State private var collegeName = ""
     @State private var collegeAdress = ""
@@ -15,29 +16,36 @@ struct ContentView: View {
     @State private var yearPayment = ""
     @State private var isAlertPresented = false
     @Environment(\.managedObjectContext) private var viewContext
+//    @ObservedObject var dataManager = DataManager()
+    
+    
+//    @ObservedObject var dataManager: DataManager
 
-    @FetchRequest(
-        sortDescriptors: [NSSortDescriptor(keyPath: \College.timestamp, ascending: true)],
-        animation: .default)
-    private var items: FetchedResults<College>
+//    @FetchRequest(
+//        sortDescriptors: [NSSortDescriptor(keyPath: \College.timestamp, ascending: true)],
+//        animation: .default)
+//    private var colleges: FetchedResults<College>
+    
+    
+    
     func resetInputs(){
          collegeName = ""
         collegeAdress = ""
          noOfStudents = ""
          yearPayment = ""
     }
-    init() {
-        UINavigationBar.appearance().largeTitleTextAttributes = [
-            .foregroundColor: UIColor.brown // Set the text color
-        ]
-        
-        // Set the background color
-        UINavigationBar.appearance().backgroundColor = UIColor.clear
-        
-    }
+//    init() {
+//        UINavigationBar.appearance().largeTitleTextAttributes = [
+//            .foregroundColor: UIColor.brown // Set the text color
+//        ]
+//
+//        // Set the background color
+//        UINavigationBar.appearance().backgroundColor = UIColor.clear
+//
+//    }
     var body: some View {
        
-        NavigationStack {
+//        NavigationStack {
             ZStack{
                 LinearGradient(gradient: Gradient(colors: [ .white , .brown]), startPoint: .top, endPoint: .bottom).edgesIgnoringSafeArea(.all)
                 VStack{
@@ -57,7 +65,8 @@ struct ContentView: View {
                                 
                                 
                             }else{
-                                CollegeDataManager.shared.addCollege(name: collegeName, address: collegeAdress , nOfStudents: noOfStudents, yearPayment: Float(yearPayment) ?? 0)
+                              
+                                DataManager.shared.saveData(name: collegeName, address: collegeAdress , nOfStudents: noOfStudents, yearPayment: Float(yearPayment) ?? 0)
                                 resetInputs()
                             }
                             
@@ -87,21 +96,22 @@ struct ContentView: View {
                     Spacer()
                 }
                 
-                
-            }
         }
+        
     }
 
-    private func addItem() {
+    private func addCollege(name: String, address: String , nOfStudents: String, yearPayment: Float) {
         withAnimation {
-            let newItem = College(context: viewContext)
-            newItem.timestamp = Date()
-
+            let newCollege = College(context: viewContext)
+            newCollege.timestamp = Date()
+            newCollege.name = name
+                    newCollege.adress = address
+                    newCollege.nOfStudents = nOfStudents
+                    newCollege.payment = yearPayment
+                  
             do {
                 try viewContext.save()
             } catch {
-                // Replace this implementation with code to handle the error appropriately.
-                // fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
                 let nsError = error as NSError
                 fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
             }
@@ -110,7 +120,7 @@ struct ContentView: View {
 
     private func deleteItems(offsets: IndexSet) {
         withAnimation {
-            offsets.map { items[$0] }.forEach(viewContext.delete)
+//            offsets.map { items[$0] }.forEach(viewContext.delete)
 
             do {
                 try viewContext.save()
@@ -131,11 +141,11 @@ private let itemFormatter: DateFormatter = {
     return formatter
 }()
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
-    }
-}
+//struct ContentView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
+//    }
+//}
 
 struct input: View{
     @Binding var text: String

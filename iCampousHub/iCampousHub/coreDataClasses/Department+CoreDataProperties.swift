@@ -2,7 +2,7 @@
 //  Department+CoreDataProperties.swift
 //  iCampousHub
 //
-//  Created by asmaa gamal  on 26/10/2023.
+//  Created by asmaa gamal  on 29/10/2023.
 //
 //
 

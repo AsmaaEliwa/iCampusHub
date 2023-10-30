@@ -7,17 +7,18 @@
 
 import Foundation
 import CoreData
-class CourseDataManger {
+ class CourseDataManger {
     static let shared = CourseDataManger()
     let viewContext: NSManagedObjectContext
     private init(){
         let persistanceController = PersistenceController.shared
         viewContext = persistanceController.container.viewContext
     }
-    func addCourse(name:String , hours:Float)->Course{
+    func addCourse(name:String , hours:Float ,department: Department)->Course{
         let course = Course(context: viewContext)
         course.name = name
         course.hours = hours
+        department.addToCourses(course)
         do {
             
             try viewContext.save()

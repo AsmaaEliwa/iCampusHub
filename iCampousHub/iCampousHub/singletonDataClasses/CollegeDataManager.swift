@@ -32,6 +32,7 @@ class CollegeDataManager{
         }
     }
     func fetchColleges()->[College]{
+        
         let request: NSFetchRequest<College> = College.fetchRequest()
          
          do {
