@@ -163,20 +163,13 @@
 			children = (
 				7F24A1FC2AE42CF700460A65 /* iCampousHubApp.swift */,
 				7F24A2052AE42CFF00460A65 /* Persistence.swift */,
-				7F24A2262AE4B36D00460A65 /* AllCollegesView.swift */,
-				7F24A1FE2AE42CF700460A65 /* ContentView.swift */,
-				7F24A20F2AE465E300460A65 /* myBtn.swift */,
-				7F24A2412AE7F17800460A65 /* AllDepartmentsView.swift */,
-				7F24A2432AE7F21F00460A65 /* AddDepartmentView.swift */,
-				7F24A2452AE818F000460A65 /* deleteBtn.swift */,
-				7F24A2282AE6A10800460A65 /* CollegeInfo.swift */,
-				7F24A27C2AE86FA300460A65 /* DepartmentDetails.swift */,
 				7F24A2942AED1C0600460A65 /* SplashSwiftUIView.swift */,
-				7F24A2962AED69E200460A65 /* SystemButton.swift */,
-				7F67852C2AEF241E00D9BBF3 /* AddProfessor.swift */,
-				7F6785302AEF2DA200D9BBF3 /* AllProfessors.swift */,
-				7F6785322AEFCE3E00D9BBF3 /* CourseDetails.swift */,
-				7F6785342AEFDB5700D9BBF3 /* AddStudent.swift */,
+				7F6785362AEFF78F00D9BBF3 /* College */,
+				7F6785372AEFF7A600D9BBF3 /* componants */,
+				7F6785382AEFF7CD00D9BBF3 /* Department */,
+				7F6785392AEFF7E500D9BBF3 /* professor */,
+				7F67853A2AEFF7FA00D9BBF3 /* Course */,
+				7F67853B2AEFF80800D9BBF3 /* Student */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -187,6 +180,61 @@
 				7F6784F42AEEE27600D9BBF3 /* CollegeModel.swift */,
 			);
 			path = model;
+			sourceTree = "<group>";
+		};
+		7F6785362AEFF78F00D9BBF3 /* College */ = {
+			isa = PBXGroup;
+			children = (
+				7F24A2262AE4B36D00460A65 /* AllCollegesView.swift */,
+				7F24A1FE2AE42CF700460A65 /* ContentView.swift */,
+				7F24A2282AE6A10800460A65 /* CollegeInfo.swift */,
+			);
+			path = College;
+			sourceTree = "<group>";
+		};
+		7F6785372AEFF7A600D9BBF3 /* componants */ = {
+			isa = PBXGroup;
+			children = (
+				7F24A2962AED69E200460A65 /* SystemButton.swift */,
+				7F24A20F2AE465E300460A65 /* myBtn.swift */,
+				7F24A2452AE818F000460A65 /* deleteBtn.swift */,
+			);
+			path = componants;
+			sourceTree = "<group>";
+		};
+		7F6785382AEFF7CD00D9BBF3 /* Department */ = {
+			isa = PBXGroup;
+			children = (
+				7F24A2412AE7F17800460A65 /* AllDepartmentsView.swift */,
+				7F24A2432AE7F21F00460A65 /* AddDepartmentView.swift */,
+				7F24A27C2AE86FA300460A65 /* DepartmentDetails.swift */,
+			);
+			path = Department;
+			sourceTree = "<group>";
+		};
+		7F6785392AEFF7E500D9BBF3 /* professor */ = {
+			isa = PBXGroup;
+			children = (
+				7F67852C2AEF241E00D9BBF3 /* AddProfessor.swift */,
+				7F6785302AEF2DA200D9BBF3 /* AllProfessors.swift */,
+			);
+			path = professor;
+			sourceTree = "<group>";
+		};
+		7F67853A2AEFF7FA00D9BBF3 /* Course */ = {
+			isa = PBXGroup;
+			children = (
+				7F6785322AEFCE3E00D9BBF3 /* CourseDetails.swift */,
+			);
+			path = Course;
+			sourceTree = "<group>";
+		};
+		7F67853B2AEFF80800D9BBF3 /* Student */ = {
+			isa = PBXGroup;
+			children = (
+				7F6785342AEFDB5700D9BBF3 /* AddStudent.swift */,
+			);
+			path = Student;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
